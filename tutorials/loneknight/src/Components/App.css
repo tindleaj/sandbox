@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.Container {
+  border: 1px solid grey;
+  color: grey;
+  display: flex;
+  padding: 1rem;
+}
+
+.Column {
+  border: 1px solid green;
+  color: green;
+  flex: 1;
+  padding: 1rem;
+}
+
+.Task {
+  border: 1px solid blue;
+  color: blue;
+  padding: 1rem;
+}

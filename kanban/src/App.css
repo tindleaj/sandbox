@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+.card {
+  border: 1px black solid;
+  padding: 1rem;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.container {
+  flex: 1;
+  border: 1px black solid;
+  padding: 1rem;
+  width: 200px;
+  margin: 0 auto;
+}

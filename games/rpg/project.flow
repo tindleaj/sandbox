@@ -1,0 +1,30 @@
+{
+	project : {
+
+		// These first two are required
+		name : 'rpg',
+		version : '0.1.0',
+		author : 'austin tindle',
+
+		// This configures your app.
+		// The package is important, it's used 
+		// for save locations, initializing mobile project files etc
+		app : {
+			name : 'rpg',
+			package : 'com.austintindle.rpg'
+		},
+
+		// This configures the build process
+		build : {
+			dependencies : {
+				luxe : '*'
+			}
+		},
+
+		// Copies over all the assets to the output
+		files : {
+			assets : 'assets/'
+		}
+
+	} // project
+}

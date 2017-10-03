@@ -1,0 +1,44 @@
+{% block headContainer %}
+    {% include 'html-header.twig' %}
+
+    {% block head %}
+    {% endblock %}
+
+	</head> <!-- end head -->
+{% endblock %}
+
+
+
+	<body>
+
+		<header>
+			{% block header %}
+    
+			{% endblock %}
+		</header> <!-- # Header -->
+
+
+
+		<section>
+			{% if title %} <h1>{{ title }}</h1> {% endif %}
+			{% block section %}
+    
+			{% endblock %}
+		</section> <!-- # Section -->
+
+
+
+		{% block footer %}
+
+			<footer>
+				{% include 'footer.twig' %}
+			</footer>
+
+			{{ function('wp_footer') }}
+
+		{% endblock %} <!-- # Footer -->
+
+
+
+	</body>
+</html>
